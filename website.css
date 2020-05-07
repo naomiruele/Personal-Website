@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5D3E56;
+    background-size: cover;
+}
+.about{
+    height: 300vh;
+    display: flex;
+}
+.about-title{
+    width:50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24;
+    margin: 0!important;
+}
+.about-pages{
+    width:50%;
+    color: white;
+}
+
+.about-pages div{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.about-pages div:nth-child(1){
+    background-color: #FDAA74;
+    }
+
+.about-pages div:nth-child(2){
+    background-color: #F65156;
+    }
+
+.about-pages div:nth-child(3){
+    background-color: #1F0D0B;
+    }
+footer{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
